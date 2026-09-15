@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sally Face</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<style>
+
+*{
+box-sizing:border-box;
+}
+
+
+body{
+
+margin:0;
+background:#08050d;
+color:white;
+font-family:Arial, sans-serif;
+
+}
+
+
+/* NAV */
+
+.navbar{
+
+background:#050309;
+padding:20px 0;
+
+}
+
+
+.navbar-brand{
+
+font-weight:900;
+letter-spacing:5px;
+color:white!important;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+min-height:90vh;
+
+display:flex;
+align-items:center;
+
+background:
+radial-gradient(circle at 75% 40%,#59178f,#08050d 60%);
+
+}
+
+
+
+.case{
+
+color:#c084fc;
+
+letter-spacing:6px;
+
+font-size:18px;
+
+}
+
+
+
+h1{
+
+font-size:100px;
+
+font-weight:900;
+
+line-height:.8;
+
+margin:20px 0;
+
+}
+
+
+
+.text{
+
+font-size:22px;
+
+color:#ccc;
+
+max-width:500px;
+
+line-height:1.6;
+
+}
+
+
+
+.sally{
+
+width:420px;
+
+max-width:100%;
+
+filter:
+
+drop-shadow(0 0 40px #9333ea);
+
+}
+
+
+
+
+button{
+
+margin-top:20px;
+
+background:#9333ea;
+
+color:white;
+
+border:none;
+
+padding:16px 40px;
+
+border-radius:10px;
+
+font-weight:bold;
+
+font-size:18px;
+
+transition:.3s;
+
+}
+
+
+button:hover{
+
+background:#c084fc;
+
+box-shadow:0 0 30px #9333ea;
+
+}
+
+
+
+
+
+/* EPISODES */
+
+
+.episodes{
+
+padding:80px 0;
+
+}
+
+
+
+h2{
+
+text-align:center;
+
+font-size:60px;
+
+font-weight:900;
+
+margin-bottom:50px;
+
+}
+
+
+
+
+.card{
+
+background:#121016;
+
+border:1px solid #36204d;
+
+border-radius:20px;
+
+overflow:hidden;
+
+height:100%;
+
+transition:.3s;
+
+}
+
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 35px #9333ea;
+
+}
+
+
+
+.card img{
+
+width:100%;
+
+height:260px;
+
+object-fit:cover;
+
+}
+
+
+
+.card-body{
+
+padding:25px;
+
+}
+
+
+
+.card span{
+
+color:#c084fc;
+
+letter-spacing:3px;
+
+}
+
+
+
+.card h3{
+
+font-size:30px;
+
+margin-top:15px;
+
+}
+
+
+
+.card p{
+
+color:#aaa;
+
+line-height:1.6;
+
+}
+
+
+
+
+
+footer{
+
+background:#050309;
+
+padding:30px;
+
+text-align:center;
+
+color:#777;
+
+}
+
+
+
+
+
+@media(max-width:768px){
+
+h1{
+
+font-size:60px;
+
+}
+
+h2{
+
+font-size:45px;
+
+}
+
+
+.sally{
+
+margin-top:40px;
+
+}
+
+}
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<nav class="navbar">
+
+<div class="container">
+
+<a class="navbar-brand">
+SALLY FACE
+</a>
+
+
+<a class="text-white">
+EPISODES
+</a>
+
+
+</div>
+
+</nav>
+
+
+
+
+
+<section class="hero">
+
+
+<div class="container">
+
+
+<div class="row align-items-center">
+
+
+<div class="col-md-6">
+
+
+<p class="case">
+CASE FILE #0001
+</p>
+
+
+<h1>
+
+SALLY<br>
+FACE
+
+</h1>
+
+
+<p class="text">
+
+Поринь у похмуру історію,
+повну таємниць, загадок
+та незабутніх персонажів.
+
+</p>
+
+
+<button>
+
+ПОЧАТИ ІСТОРІЮ
+
+</button>
+
+
+
+</div>
+
+
+
+
+<div class="col-md-6 text-center">
+
+
+<img class="sally"
+
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaHtyVhREbMPOv_QRbPmsWrbxKPTqj4PCUnOpiCfOPcA&s=10">
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section class="episodes container">
+
+
+<h2>
+
+EPISODES
+
+</h2>
+
+
+
+<div class="row g-4">
+
+
+
+
+
+<div class="col-md-6">
+
+<div class="card">
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZObGeQxIEvdN9A7GazGVazh_QqtK8u3MSbXV4uZDIzg&s=10">
+
+
+<div class="card-body">
+
+
+<span>
+Episode#01
+</span>
+
+
+<h3>
+Strange Neighbors
+</h3>
+
+
+<p>
+
+Саллі переїжджає у нову квартиру.
+Він знайомиться з Ларрі та відкриває
+страшні секрети будинку.
+
+</p>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="col-md-6">
+
+
+<div class="card">
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzaNLkrImXry2KX1oukE8XM8r-8ZMZc3-sGj366Ly4mg&s=10">
+
+
+<div class="card-body">
+
+
+<span>
+Episode #02
+</span>
+
+
+<h3>
+The Wretched
+</h3>
+
+
+<p>
+
+Друзі починають розслідування
+дивних подій, які відбуваються
+навколо них.
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="col-md-6">
+
+
+<div class="card">
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjDseC5YKYWyNw9-i-lKgTf7lx6MZUIYCFfhWB7Neibg&s=10">
+
+
+<div class="card-body">
+
+
+<span>
+Episode#03
+</span>
+
+
+<h3>
+The Bologna Incident
+</h3>
+
+
+<p>
+
+У школі з'являється нова загадка.
+Саллі намагається дізнатися правду.
+
+</p>
+
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="col-md-6">
+
+
+<div class="card">
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFxVxx_-ueimWEnl5lOOE7oTVrYQXIcu5aydikxhAQUw&s=10">
+
+
+<div class="card-body">
+
+
+<span>
+Episode#04
+</span>
+
+
+<h3>
+The Trial
+</h3>
+
+
+<p>
+
+Минуле повертається.
+Герої стикаються з найтемнішою
+частиною своєї історії.
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+SALLY FACE FAN PAGE © 2026
+
+</footer>
+
+
+
+</body>
+
+</html>
